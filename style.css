@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ a {
+text-decoration: none;
+}
+body {
+    font-family: sans-serif;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+header {
+    margin-top: 20px;
+}
+.na-links {
+    text-align: end;
+}
+.na-links {
+    color: #000;
+text-align: right;
+font-size: 20px;
+
+font-weight: 500;
+
+}
+.hero {
+    margin: 140px 0;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.hero {
+    color: var(--Dark-Color, #21243D);
+    
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px; /* 136.364% */
+}
+.hero-title {
+    margin: 40px 0;
+    width: 500px;
+    color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    
+}
+.hero-btn {
+    padding: 9px  21px 17px  20px;
+    color: #FFF;
+    border-radius: 2px;
+background: var(--Primary, #FF6464);
+font-size: 20px;
+font-weight: 500;
+border: none;
+animation: btn-animation 3s;
+}
+@keyframes btn-animation{
+    0%{
+        transform: rotate(-360deg);
+    }
+}
+.joo 
+{
+    animation: joo 3s;
+}
+@keyframes joo{
+    0% {
+        transform: translateX(-100px);
+    }
+}
+#recept{
+    padding: 10px 0;
+    background: #EDF7FA;
+}
+.recept-1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.recept-11 {
+    color: var(--Dark-Color, #21243D);
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 20px;
+} 
+.view  {
+    color: var(--Secondry, #00A8CC);
+text-align: right;
+font-size: 16px;
+font-weight: 400;
+}
+.recept-blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.recept-block {
+    width: 600px;
+    border-radius: 4px;
+    background: #fff;
+    
+}
+.recept-12 {
+    color: var(--Dark-Color, #21243D);
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px; 
+}
+.data span {
+    color: var(--Dark-Color, #21243D);
+font-size: 18px;
+font-weight: 400;
+margin-right: 15px;
+}
+.hero-title1 {
+    color: var(--Dark-Color, #21243D);
+font-size: 16px;
+font-weight: 400;
+margin-top: 20px;
+}
+.recept-12-2 {
+    color: var(--Dark-Color, #21243D);
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+     
+}
+.hero-title1-2 {
+    color: var(--Dark-Color, #21243D);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+     
+}
+#work {
+    margin: 30px 0 50 px 0;
+}
+.work-block {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+hr {
+    margin-bottom: 30px;
+}
+.work-text {
+    margin: 20px;
+}
+.work-text-1 {
+    color: var(--Dark-Color, #21243D);
+font-size: 30px;
+font-weight: 700;
+}
+.work-date-btn {
+    padding: 1px 14px;
+    border-radius: 16px;
+    border-radius: 16px;
+background: #142850;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 900;
+  
+}
+.work-name {
+    color: var(--Light, #8695A4);
+font-size: 20px;
+font-weight: 400;
+}
+.work-p {
+    color: var(--Dark-Color, #21243D);
+font-size: 16px;
+font-weight: 400;
+}
+#footer {
+    padding: 50px 0;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.footer a {
+    font-size: 40px;
+    margin: 18px;
+    color: #21243d;
+}
+.footer-text {
+    color: var(--Dark, #21243D);
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+margin-top: 20px;
+
+}
+
